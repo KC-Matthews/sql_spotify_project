@@ -8,21 +8,11 @@ I utilized spotify data using the **Spotify User Behavior Dataset**, which conta
 https://www.kaggle.com/datasets/meeraajayakumar/spotify-user-behavior-datase
 The spotify data is in **.xlsx format** and contains multiple recordings from various users of all ages including their personal preferences. 
 ## Files and Structure
-- **`eeg_cnn1.py`**: This Python script handles the streaming of the `.edf` EEG data and defines the structural layout of the **Convolutional Neural Network (CNN)** model. The model is trained to classify seizure vs. non-seizure events in the provided EEG data.
+- **`final_sql_project_script.sql`**: This SQL script handles the import of the **.csv** file when converted from the **.xlsx** file for the spotify data and outlines the Spotify User Behavior Analyzation. 
 ## Key Methods and Approach
-- **Machine Learning Approach**: A **CNN model** is employed to extract features from the EEG data and detect patterns associated with seizures. CNNs are well-suited for this type of time-series data due to their ability to automatically learn spatial hierarchies from input data.
-- **Fast-Fourier Transform**:
-- **Data Preprocessing**: The EEG data is preprocessed to ensure proper input formatting for the CNN. This includes steps like data normalization, segmentation of time windows, and transforming EEG signals into a form suitable for input into the neural network.
-## How to Run
-1. **Run the SQL Script**:
-   - The `eeg_cnn1.py` script contains the full implementation of the model.
-   - You can run the script using DBeaver by navigating to the project directory and running:
-     ```bash
-     python eeg_cnn1.py
-     ```
+-**Database Setup** Created a database in DBeaver with an information schema and ERD to connect the unique tables together using a primary id, **user_id**, to import the data into each table with their specific data types. Table 1, **Spotify_User**, is information on users and details about each one. Table 2, **Engagement**, is data on preferences on music, genres, podcasts, and time they use spotify most. 
+- **Computational Approach**: A **script to query** is employed to extract features from the spotify data and detect patterns associated with preferences. Scripts are well-suited for this type of data due to their ability to manipulate the tables and specific data types per row and column.
 ## Future Enhancements
-- **Data Augmentation**: Implement data augmentation techniques to increase the robustness of the model.
-- **Model Optimization**: Further optimize the model's hyperparameters and experiment with different architectures to improve detection accuracy.
-- **Real-time Monitoring**: Develop a real-time monitoring system for continuous EEG streaming and seizure detection.
-## Acknowledgments
-This project was inspired by Elianna, who has given me so much hope for the future of this world just by being born.
+- **Data Augmentation**: Implement data augmentation techniques to increase the robustness of the data analyzation.
+- **Machine Learning**: Further optimize the analyzation by implementing a machine learning model.
+- **Real-time Monitoring**: Develop a real-time monitoring system for continuous user preference based on age.
