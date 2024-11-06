@@ -1,13 +1,12 @@
-# SQL Final Project
+## SQL Final Project
 ## Project Overview
 This project focuses on spotify usage per user using compuutational methods. Specifically, I used computational methods to analyze the spotify data to detect patterns, preferences, and how it relates to each age group. 
 ## Project Motivation
-I use spotify on almost a daily basis either it's for music or listening to podcasts to eitther distract me, uplift my mood, or learn new information. I was curious to see how my personal preferrences compared to other users, so then I decided to use the spotify data to accomplish my goal using my skills in computational methods.
+I use spotify on almost a daily basis either for music or listening to podcasts to eitther distract me, uplift my mood, or learn new information and much more. I was curious to see how my personal preferences compared to other users and why they use spotify so I decided to use data from spotify to accomplish my goal using my skills in computational methods.
 ## Dataset
-I'm utilizing EEG data from the **CHB-MIT Scalp EEG Database**, which contains recordings from children aged **2 to 19**. This dataset is publicly available from PhysioNet at the following link:
-[CHB-MIT Scalp EEG Database](https://archive.physionet.org/physiobank/database/chbmit/chb01/)
-The EEG data is in **.edf format** and contains multiple recordings from various patients, including those with seizures. I've explored the following methods to process this data:
-- Parametric sequencing
+I utilized spotify data using the **Spotify User Behavior Dataset**, which contains recordings from children users of **all ages**. This dataset is publicly available from Kaggle by Meera Ajayakumar at the following link:
+https://www.kaggle.com/datasets/meeraajayakumar/spotify-user-behavior-datase
+The spotify data is in **.xlsx format** and contains multiple recordings from various users of all ages including their personal preferences. 
 ## Files and Structure
 - **`eeg_cnn1.py`**: This Python script handles the streaming of the `.edf` EEG data and defines the structural layout of the **Convolutional Neural Network (CNN)** model. The model is trained to classify seizure vs. non-seizure events in the provided EEG data.
 ## Key Methods and Approach
@@ -15,9 +14,9 @@ The EEG data is in **.edf format** and contains multiple recordings from various
 - **Fast-Fourier Transform**:
 - **Data Preprocessing**: The EEG data is preprocessed to ensure proper input formatting for the CNN. This includes steps like data normalization, segmentation of time windows, and transforming EEG signals into a form suitable for input into the neural network.
 ## How to Run
-1. **Run the CNN Model**:
+1. **Run the SQL Script**:
    - The `eeg_cnn1.py` script contains the full implementation of the model.
-   - You can run the script using Python by navigating to the project directory and running:
+   - You can run the script using DBeaver by navigating to the project directory and running:
      ```bash
      python eeg_cnn1.py
      ```
