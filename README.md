@@ -2,9 +2,9 @@
 ## Project Overview
 This project focuses on spotify usage per user using compuutational methods. Specifically, I used computational methods to analyze the spotify data to detect patterns, preferences, and how it relates to each age group. 
 ## Project Motivation
-I use spotify on almost a daily basis either for music or listening to podcasts to eitther distract me, uplift my mood, or learn new information and much more. I was curious to see how my personal preferences compared to other users and why they use spotify so I decided to use data from spotify to accomplish my goal using my skills in computational methods.
+I use spotify on almost a daily basis either for music, audiobooks, or listening to podcasts. Each method is used for different reasons, such as distraction, uplift my mood, or learning new information and much more. I was curious to see how my personal preferences compared to other users and why they use spotify so I decided to use data from spotify to accomplish my goal using my skills in computational methods.
 ## Dataset
-I utilized spotify data using the **Spotify User Behavior Dataset**, which contains recordings from children users of **all ages**. This dataset is publicly available from Kaggle by Meera Ajayakumar at the following link:
+I utilized spotify data using the **Spotify User Behavior Dataset**, which contains recordings from users of **all ages**. This dataset is publicly available from Kaggle by Meera Ajayakumar at the following link:
 https://www.kaggle.com/datasets/meeraajayakumar/spotify-user-behavior-datase
 The spotify data is in **.xlsx format** and contains multiple recordings from various users of all ages including their personal preferences. 
 ## Files and Structure
