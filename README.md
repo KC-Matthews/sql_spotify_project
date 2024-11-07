@@ -1,8 +1,8 @@
-## SQL Final Project
+## Data Analytics SQL Final Project
 ## Project Overview
 This project focuses on spotify usage per user using compuutational methods. Specifically, I used computational methods to analyze the spotify data to detect patterns, preferences, and how it relates to each age group. 
 ## Project Motivation
-I use spotify on almost a daily basis either for music, audiobooks, or listening to podcasts. Each method is used for different reasons, such as distraction, uplift my mood, or learning new information and much more. I was curious to see how my personal preferences compared to other users and why they use spotify so I decided to use data from spotify to accomplish my goal using my skills in computational methods.
+I use spotify almost daily either for music, audiobooks, or listening to podcasts. Each method is used for different reasons, such as distraction, uplift my mood, or learning new information and much more. I was curious to see how my personal preferences compared to other users and why they use spotify so I decided to use data from spotify to accomplish my goal using my skills in computational methods.
 ## Dataset
 I utilized spotify data using the **Spotify User Behavior Dataset**, which contains recordings from users of **all ages**. This dataset is publicly available from Kaggle by Meera Ajayakumar at the following link:
 https://www.kaggle.com/datasets/meeraajayakumar/spotify-user-behavior-datase
@@ -17,7 +17,3 @@ The spotify data is in **.xlsx format** and contains multiple recordings from va
 - **Data Found 3**: I wanted to see how popular the genre **Kpop** was in my age group, **20-35'**, so I queried the data using a script by separtaing **'age'** into groups then displayed the age group as well as the **'Fav_Music_Genre'** Column to find the results. Kpop is not as popular as the genre **'Electronic/Dance'**.
 - **Data Found 4**: Most of the time I use spotify in the afternoon when I am finished with my work for the day. I wondered if the time I use spotify was similar to other users, so I decided to analyze the data. I wrote a script that displayed the columns **'Gender'**, and counted how many females there were per **'Music_Time_Slot'**. Most females listen to music at night rather than the afternoon. 
 - **Data Found 5**: I wanted to find out the unqiue prefrences of users based on their **'Fav_Music_Genre'** and **'Fav_Pod_Genre'** and compare how different they are when they are not using their phones, **'Smartphone'**. The script was used to display the genres of music and podcasts excluding the use of phones. One of the more unique combinations of genres I found was **Comedy** for podcasts and **Classical** for music. 
-## Future Enhancements
-- **Data Augmentation**: Implement data augmentation techniques to increase the robustness of the data analyzation.
-- **Machine Learning**: Further optimize the analyzation by implementing a machine learning model.
-- **Real-time Monitoring**: Develop a real-time monitoring system for continuous user preference based on age.
